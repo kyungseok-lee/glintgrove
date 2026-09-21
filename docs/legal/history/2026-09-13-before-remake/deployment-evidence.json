@@ -1,6 +1,12 @@
 {
   "observedAt": "2026-09-13T09:05:29.585357+00:00",
   "purpose": "Read-only deployment evidence, not copyright clearance. No repository or hosting settings changed.",
+  "usernameMigration": {
+    "currentRepository": "kyungseok-lee/glintgrove",
+    "currentRepositoryUrl": "https://github.com/kyungseok-lee/glintgrove",
+    "currentPagesUrl": "https://kyungseok-lee.github.io/glintgrove/",
+    "note": "The repository, Pages URL and asset URLs below retain the username observed at the recorded timestamps. Their statuses and hashes are historical evidence, not verification of the current URLs."
+  },
   "repository": "inininax/glintgrove",
   "repositoryVisibility": "public",
   "githubLicenseApiField": null,

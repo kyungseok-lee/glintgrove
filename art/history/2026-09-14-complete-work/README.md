@@ -28,7 +28,7 @@ Blender API를 사용하는 `review/scripts/ilyndrel-inspect-master.py`에는 �
 
 ## 정리와 복원
 
-미사용 배포 파일 13개는 [e355b1b](https://github.com/inininax/glintgrove/commit/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0)에 모두 보존되어 있다. 현재 폴더에서 삭제했지만 원본·악보·생성 코드·프롬프트와 현행 출처 참조 체인은 남겨뒀다. 제거 목록과 SHA256·Git blob은 [cleanup.json](cleanup.json)에 있다.
+미사용 배포 파일 13개는 [e355b1b](https://github.com/kyungseok-lee/glintgrove/commit/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0)에 모두 보존되어 있다. 현재 폴더에서 삭제했지만 원본·악보·생성 코드·프롬프트와 현행 출처 참조 체인은 남겨뒀다. 제거 목록과 SHA256·Git blob은 [cleanup.json](cleanup.json)에 있다.
 
 과거 파일이 필요하면 다음과 같이 별도의 임시 경로로 읽을 수 있다. 현재 에셋을 덮어쓰는 명령이 아니다.
 

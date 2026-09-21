@@ -2,7 +2,7 @@
 
 Ilyndrel용으로 작성한 72초짜리 잔잔한 연주곡이다. 음정과 배치를 직접 정한 악보를 Node.js의 수학적 음원 합성기로 렌더했다. 외부 음악, 녹음, 샘플, 가사, 보컬, 음성, 타격음은 사용하지 않았다. GPT 음악 서비스의 결과물이 아니라 프로젝트 안에 포함된 악보와 합성 코드로 만든 음악이다.
 
-이 문서는 v1 제작·적용 당시의 기록이다. 현재 게임은 [96초 Ancient Forest v2](ancient-forest-v2-music.md)를 사용한다. v1 악보·합성기·해시 기록은 아래 제작 경로에 유지하며, 사용하지 않는 WAV는 현 에셋 폴더에서 정리하고 [커밋 e355b1b의 보존본](https://github.com/inininax/glintgrove/blob/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0/assets/audio/forest-reverie-v1.wav)으로 남겼다. 아래 경로·재생 길이·업데이트 명령은 v1 당시 기준이며, 현재 로더·테스트·배포 목록의 기준은 v2 레시피를 따른다.
+이 문서는 v1 제작·적용 당시의 기록이다. 현재 게임은 [96초 Ancient Forest v2](ancient-forest-v2-music.md)를 사용한다. v1 악보·합성기·해시 기록은 아래 제작 경로에 유지하며, 사용하지 않는 WAV는 현 에셋 폴더에서 정리하고 [커밋 e355b1b의 보존본](https://github.com/kyungseok-lee/glintgrove/blob/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0/assets/audio/forest-reverie-v1.wav)으로 남겼다. 아래 경로·재생 길이·업데이트 명령은 v1 당시 기준이며, 현재 로더·테스트·배포 목록의 기준은 v2 레시피를 따른다.
 
 ## 파일 구조
 

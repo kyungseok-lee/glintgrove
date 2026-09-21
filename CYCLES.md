@@ -60,7 +60,7 @@
 
 1. 저장소 Settings → Pages
 2. Source: `main` branch / `(root)`
-3. Save → `https://inininax.github.io/glintgrove/` 활성화 (수 분 소요)
+3. Save → `https://kyungseok-lee.github.io/glintgrove/` 활성화 (수 분 소요)
 
 업데이트 배포는 `main` push 시 자동 반영됩니다.
 

@@ -17,7 +17,7 @@
 - 출력: [forest-v6.png](../source/gpt/forest-v6.png), 1536×1024 PNG.
 - [사용한 전체 프롬프트](gpt-forest-v6.prompt.txt), [입력·출력·프롬프트 해시](gpt-forest-v6.json).
 - 청록·비취·금빛을 유지하고 중앙의 밝은 하늘을 닫았다. 거대한 수간, 어두운 원경, 낮은 안개와 하류의 작은 금빛으로 숲 안쪽으로 들어가는 깊이를 만들었다.
-- 이 숲을 처음 적용했을 때는 기존 상징·게임명 PNG를 유지하고 CSS 표시 창으로 투명 여백을 줄였다. 이후 타이틀은 [보석 게임명 v2](jeweled-title-v2.md) 하나로 교체했다. 이전 PNG 원본은 현재 제작 폴더에 유지하며, 미사용 WebP 출력은 현 에셋 폴더에서 정리하고 [커밋 e355b1b](https://github.com/inininax/glintgrove/commit/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0)에 보존한다.
+- 이 숲을 처음 적용했을 때는 기존 상징·게임명 PNG를 유지하고 CSS 표시 창으로 투명 여백을 줄였다. 이후 타이틀은 [보석 게임명 v2](jeweled-title-v2.md) 하나로 교체했다. 이전 PNG 원본은 현재 제작 폴더에 유지하며, 미사용 WebP 출력은 현 에셋 폴더에서 정리하고 [커밋 e355b1b](https://github.com/kyungseok-lee/glintgrove/commit/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0)에 보존한다.
 - `catalog.json`의 `forest` 의미 ID를 유지하고 `publish_art.py`가 버전 해시가 붙은 WebP를 만든다. Canvas의 안개·물빛·반딧불은 별도 실시간 효과이며 정지 이미지와 구분된다.
 - 장이 바뀔 때 밝은 옛 Blender 배경으로 분위기가 끊기는 문제를 막기 위해 조각 아트 모드의 타이틀과 모든 장 배경은 `forest-v6`로 통일한다. 장별 안개·빛의 낮은 강도 색감 차이는 유지한다. 기존 세 배경의 원본·카탈로그 항목은 호환용 라이브러리에 보존하며 현재 기본 장면에서는 선택하지 않는다.
 
