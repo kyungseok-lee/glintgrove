@@ -1,5 +1,7 @@
 # Moonlit water and woodland · v3
 
+> The v3 master remains editable, but the current `forest` catalogue entry uses [GPT v6](ancient-forest-v6.md). Only the retained `depths`, `garden` and `heart` entries use v3 renders; the default sculpted game view displays the common v6 forest in every chapter. Old runtime exports are now recoverable from Git history rather than all retained in the current asset directory.
+
 This update improves the four chapter backgrounds using the locally installed Blender 5.2.1 LTS. It opens the existing original v2 master and saves a separate editable v3 master. The v2 master, v2 renders, sprite source library and current social preview are preserved.
 
 ## Editable files and runtime separation

@@ -4,13 +4,13 @@
 
 보관 경로 갱신(2026-09-14): 아래의 `art/build/`·`art/retired/`와 ‘Git 제외’는 당시 상태를 기록한 것이다. 해당 자료는 현재 `art/history/2026-09-14-complete-work/production/`·`retired/`에 Git으로 보존하며, 원래 경로와 바이트 일치는 [보관 명부](../../art/history/2026-09-14-complete-work/inventory.json)에서 확인한다. 과거 실행 명령·관찰·검증 수치는 유지한다. 미사용 구버전 WebP·WAV는 현 에셋 폴더에서 정리했지만 [커밋 e355b1b](https://github.com/kyungseok-lee/glintgrove/commit/e355b1b8ffa46d2047dcbd427fa20ebb37c5c6a0)에 보존되어 있고, 현재 PNG·Blender 원본·악보·생성기는 제작 폴더에 남아 있다. 보관 자료는 서비스용 빌드에서 제외한다.
 
-이 문서의 아래 수치·교체 범위와 통합 검증은 최초 재제작 시점의 기록이다. 이후 배경 개선에서는 v2 원본을 보존하고, 같은 로컬 장면에 조명·물길·수면 재질을 추가한 v3 배경을 제작했다. 그 다음 사용자의 명시적인 GPT 생성 요청으로 숲 한 장을 이미지 생성 도구로 다시 만들고, v5에서는 먼 숲의 명암과 밀도를 다듬었다. 타이틀 상징·게임명도 텍스트 프롬프트로 새 이미지를 생성했다. 현재 이미지 구성은 GPT 숲 1개, GPT 타이틀 이미지 2개, Blender 배경 3개와 소품 21개이며, 아래의 ‘이미지 모델 출력 없음’은 최초 재제작 당시만의 관찰이다.
+이 문서의 아래 수치·교체 범위와 통합 검증은 최초 재제작 시점의 기록이다. 이후 배경 개선에서는 v2 원본을 보존하고, 같은 로컬 장면에 조명·물길·수면 재질을 추가한 v3 배경을 제작했다. 그 다음 사용자의 명시적인 GPT 생성 요청으로 숲 한 장을 이미지 생성 도구로 다시 만들고, v5에서는 먼 숲의 명암과 밀도를 다듬었다. 타이틀 상징·게임명도 텍스트 프롬프트로 새 이미지를 생성했다. 그 v5 단계의 이미지 구성은 GPT 숲 1개, GPT 타이틀 이미지 2개, Blender 배경 3개와 소품 21개였으며, 아래의 ‘이미지 모델 출력 없음’은 최초 재제작 당시만의 관찰이다.
 
-현재 타이틀·숲의 정확한 프롬프트와 제작 방식은 [새 제작 기록](../../art/recipes/title-forest-music.md), 참조 체인의 이전 단계는 [GPT 숲 v4](../../art/recipes/gpt-forest-v4.md)와 [Blender v3](../../art/recipes/procedural-environments-v3.md)에 있다. 배경의 느린 물빛·안개·반딧불은 Canvas 코드로 표현하며, 새 그림 자체는 정지 이미지다. 별도의 [72초 배경음악](../../art/recipes/forest-reverie-v1-music.md)은 외부 녹음·샘플·가사·보컬 없이 프로젝트의 악보와 수학적 합성기로 제작했다. 이미지 생성 도구와 음악 합성기의 제작 방식을 혼동하지 않는다.
+당시 v5 타이틀·숲의 정확한 프롬프트와 제작 방식은 [제작 기록](../../art/recipes/title-forest-music.md), 참조 체인의 이전 단계는 [GPT 숲 v4](../../art/recipes/gpt-forest-v4.md)와 [Blender v3](../../art/recipes/procedural-environments-v3.md)에 있다. 배경의 느린 물빛·안개·반딧불은 Canvas 코드로 표현하며, 새 그림 자체는 정지 이미지다. 별도의 [72초 배경음악](../../art/recipes/forest-reverie-v1-music.md)은 외부 녹음·샘플·가사·보컬 없이 프로젝트의 악보와 수학적 합성기로 제작했다. 이미지 생성 도구와 음악 합성기의 제작 방식을 혼동하지 않는다.
 
 [교체 파일 명부](replacement-register.json)는 현재 이미지·사이트 WebP·음악·악보·합성 코드의 해시를 기록한다. GPT v5 → GPT v4 → Blender 참조/원본 체인을 재귀적으로 확인하고, 이미지 참조가 없는 타이틀은 명시적인 빈 참조 목록과 프롬프트·출력 해시를 확인한다. 타이틀 WebP는 저장된 내보내기 해시까지 비교한다. 음악은 WAV·악보·합성기 해시와 PCM 헤더·길이를 비교한다. 이 검사는 기록과 파일의 일치 여부에 한정되며 생성 서비스·정확한 모델 버전·권리 귀속을 독립적으로 증명하지 않는다. [배경·안내창 검증](../art/living-background-verification.md)은 v4 이전의 동작 확인 범위를 기록한다.
 
-현재 타이틀의 화면 크기별 확인, 72초를 넘긴 동일 오디오 소스의 반복 재생, 음소거·애니메이션·캐시 동작은 [타이틀·숲·음악 검증](../art/title-forest-music-verification.md)에 구분해 기록한다.
+당시 v1 타이틀의 화면 크기별 확인, 72초를 넘긴 동일 오디오 소스의 반복 재생, 음소거·애니메이션·캐시 동작은 [타이틀·숲·음악 검증](../art/title-forest-music-verification.md)에 구분해 기록한다.
 
 ## 고대 숲·장치 가독성 개선
 
@@ -53,7 +53,7 @@
 - [진행 모달 버그 수정 및 재현](../art/progression-fix.md)
 - [새 퍼즐 구성과 솔버 검증](../art/remade-levels.md)
 - [새 UI 그래픽 제작 기록](../art/remade-ui.md)
-- [현재 작업본 통합 검증](../art/remade-verification.md)
+- [최초 재제작 작업본 통합 검증](../art/remade-verification.md)
 - [별도 검토자의 파일·음향 검증](remake-independent-review.md)
 
 

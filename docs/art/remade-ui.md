@@ -1,5 +1,7 @@
 # Remade interface and Canvas artwork
 
+> Historical implementation record from the initial remake. Later changes replaced the title with a [bitmap wordmark](../../art/recipes/jeweled-title-v2.md), changed color labels to shape marks, and restored [immediate full-path beams](../design/beam-emission-v3.md). The component descriptions and test counts below describe that earlier pass.
+
 Authored 2026-09-13 for Ilyndrel (일린드렐), following the instruction to replace visual material whose creation history could not be established. This is a production record, not a guarantee of exclusive copyright, trademark clearance or zero legal risk.
 
 ## Newly authored components

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "recordedDate": "2026-09-13",
-  "recordedAt": "2026-09-13T17:37:18.880Z",
+  "recordedDate": "2026-09-21",
+  "recordedAt": "2026-09-21T15:38:57.019Z",
   "runtimeRevision": "nocturne-8f72a32c7dc7",
   "status": "recorded-with-provenance-status-per-entry",
   "copyrightClearance": "not-established",
@@ -1000,8 +1000,8 @@
     },
     {
       "path": "src/ui/strings.js",
-      "sha256": "cf185a52697dd81f9885b51d048ed42c443246970517de249884c4544a4eef9c",
-      "bytes": 14465
+      "sha256": "e44061069fd5718c723789d9fded924ef40362743dd9904d0a2a26c3ebd2438d",
+      "bytes": 15083
     },
     {
       "path": "src/ui/colorMarks.js",
@@ -1015,13 +1015,13 @@
     },
     {
       "path": "index.html",
-      "sha256": "b7af4a1a4ecd3eb561df628b43bb5414965a4913c93267c888d27b826fa84f14",
-      "bytes": 15768
+      "sha256": "50fd482c24adb519acc19619a93dbed2697da982ea848b6defc2bd342e7c250e",
+      "bytes": 16789
     },
     {
       "path": "css/style.css",
-      "sha256": "86ed96fd8f8c407fde9394ac9b44bc142a1bb216e6160508cd5ef0f438bc30dd",
-      "bytes": 25644
+      "sha256": "82bd30ebd9e5198c03b2877d6125ff29c004435da2d817c5fbfc6447f442d009",
+      "bytes": 27598
     },
     {
       "path": "src/render/background.js",
@@ -1110,8 +1110,8 @@
     },
     {
       "path": "sw.js",
-      "sha256": "10f2a5ab3e7a518450cf1a85539684a19eff6f1f602b06ebe96754bd4e0a8911",
-      "bytes": 10082
+      "sha256": "636fb4068a6f63e050161adf54354704d682d445dce83510dfdab9221c7ddc70",
+      "bytes": 10085
     },
     {
       "path": "src/data/levels.js",
@@ -1210,8 +1210,8 @@
     },
     {
       "path": "tools/art-preview.html",
-      "sha256": "9df23abe09d2cb97a8d6f2d4edbb8386677db4969d2240fabd031f32bc4bab4a",
-      "bytes": 6055
+      "sha256": "da34910afcde6a1fc30576271ebf16cec6c11bb56e709c9ee35cc6771ecb88ec",
+      "bytes": 6119
     },
     {
       "path": "tools/art-preview.css",
@@ -1220,8 +1220,8 @@
     },
     {
       "path": "tools/art-preview.js",
-      "sha256": "a65290b68fff0c06fd043698a667d98c056aa9d14ea19894f9495e1c8da86544",
-      "bytes": 24968
+      "sha256": "a2790e02d1d905de1c6a35663b539248efa271e53e76a862eac997998280b946",
+      "bytes": 25289
     },
     {
       "path": "tools/record-visual-provenance.mjs",
@@ -1240,8 +1240,8 @@
     },
     {
       "path": "art/recipes/procedural-environments-v2.md",
-      "sha256": "24a6d82ebdc3605e69e56350cbf088103b7c35a3c4c13a68fcab1ffc4307ed4f",
-      "bytes": 5467
+      "sha256": "09f2a08061119cdf31b595744c1a2fb5093eb9d96258ed278d6989f6f9de06ca",
+      "bytes": 5811
     },
     {
       "path": "art/recipes/procedural-environments-v2.json",
@@ -1250,8 +1250,8 @@
     },
     {
       "path": "art/recipes/procedural-environments-v3.md",
-      "sha256": "b3e1f1d5f9aabfd2f61f4a2f36adbbf53cd44995e7a5a39b1787cf9227438c74",
-      "bytes": 5719
+      "sha256": "d7de5a0df60962d27bd81ef50cae3906d29a40c03be8794d49a1c2046f5302e7",
+      "bytes": 6098
     },
     {
       "path": "art/recipes/procedural-environments-v3.json",
@@ -1260,8 +1260,8 @@
     },
     {
       "path": "art/recipes/gpt-forest-v4.md",
-      "sha256": "b086c8418e175a976c13f26dcd527411b3f00c045f4d9df7aeb0d11db7dcf5c1",
-      "bytes": 2860
+      "sha256": "3f13c8d5abe41bea847cd0acb228cda7d9581ece6f4182ad0e426420bf44ea31",
+      "bytes": 3121
     },
     {
       "path": "art/recipes/gpt-forest-v4.json",
@@ -1295,8 +1295,8 @@
     },
     {
       "path": "art/recipes/ancient-forest-v6.md",
-      "sha256": "02aee8534be6e3ee8a68e160092acbc3b6f76015098fff57d957e634ec56e8d3",
-      "bytes": 6129
+      "sha256": "6f9d328fdcbcdf052e9dc5640cff80e6c164d8a1caddce6ec8735fcb6a59a6ac",
+      "bytes": 6134
     },
     {
       "path": "art/recipes/ilyndrel-symbol-v1.json",
@@ -1340,18 +1340,18 @@
     },
     {
       "path": "art/recipes/jeweled-title-v2.md",
-      "sha256": "c61cd43bbe119d83e62c97a97a3dc7b46fe05acfa200c92fb12c955fb1d96ccb",
-      "bytes": 4246
+      "sha256": "ae5abb4f647ad8f3ab790e9b501bf999ee60dd4ff767553f4f259e08b9f33583",
+      "bytes": 4296
     },
     {
       "path": "art/recipes/title-forest-music.md",
-      "sha256": "cd4a3ca81ab1dc3ee7488818548b87efdd2024898cdfb8bf450dcced970f692e",
-      "bytes": 5681
+      "sha256": "2ef3918cae9dde33ae1892ee65b08effa279c80131874e5ea5301e3e73812737",
+      "bytes": 5691
     },
     {
       "path": "art/recipes/forest-reverie-v1-music.md",
-      "sha256": "7ccc10fe35f34ba105c5685936b8eaaa952a5d575a777c39d480017c87eb4c11",
-      "bytes": 5075
+      "sha256": "ad83297fc7d55687ff56f2e61ea0b86efb25c0eb5cd7a6f6c471cbf68d767b07",
+      "bytes": 5080
     },
     {
       "path": "art/recipes/forest-reverie-v1-music.json",
@@ -1370,8 +1370,8 @@
     },
     {
       "path": "art/recipes/ancient-forest-v2-music.md",
-      "sha256": "da3381c48d72ecaee2705f768db254e410a41d2f84fef50c384aa4e233885e14",
-      "bytes": 5358
+      "sha256": "1795ffd2e2b4e0ac7817464bd7c43ca45a637598a068aafdaa7cea4164197697",
+      "bytes": 5363
     },
     {
       "path": "art/recipes/ancient-forest-v2-music.json",

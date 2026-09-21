@@ -50,6 +50,9 @@ glintgrove/                      저장소 폴더명 (게임 표시명: Ilyndrel
 │   ├── audio/                    악보를 PCM WAV로 만드는 수학적 음원 합성기
 │   ├── art-preview.html          로컬 아트 스튜디오 (검색·확대·원본 확인·음악 미리듣기)
 │   ├── art-preview.css, .js      아트 스튜디오 전용 스타일·동작
+│   ├── asset-library.html, .css, .js 로컬 원본·이전 자료 보관함
+│   ├── index-local-assets.mjs     보관함 목록 생성기
+│   ├── local-assets.json          실행 시 생성되는 목록 (Git 제외)
 │   ├── browser-e2e.html           개발용 브라우저 테스트 화면
 │   ├── build-release.mjs          서비스 파일만 묶는 도구
 │   └── record-visual-provenance.mjs 현재 제작 경로·파일 해시 기록

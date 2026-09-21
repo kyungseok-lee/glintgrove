@@ -27,7 +27,7 @@ Image.open('art/source/gpt/ilyndrel-wordmark-v2.png').save(
 PY
 ```
 
-새 경로를 `index.html`, `sw.js`, `tools/build-release.mjs`, `tools/record-visual-provenance.mjs`에 반영하고 서비스 워커 코어 버전을 올린다. `publish_art.py`는 사이트 게임명 이미지를 만들지 않는다.
+새 경로를 `index.html`, `sw.js`, `tools/build-release.mjs`, `tools/art-preview.js`의 `siteDefinitions`, `tools/record-visual-provenance.mjs`에 반영하고 서비스 워커 코어 버전을 올린다. `publish_art.py`는 사이트 게임명 이미지를 만들지 않는다.
 
 ```bash
 npm test

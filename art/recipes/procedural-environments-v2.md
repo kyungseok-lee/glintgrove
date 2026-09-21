@@ -1,5 +1,7 @@
 # Procedural woodland replacement · v2
 
+> Historical v2 production recipe. The current forest is [GPT v6](ancient-forest-v6.md); the three retained Blender backgrounds use [v3](procedural-environments-v3.md). The v2 master and renders remain as source history, and `share-v2.png` still supplies the social preview. Catalogue mappings described below are from the v2 production pass.
+
 Created on 2026-09-13 with the locally installed Blender 5.2.1 LTS. This recipe replaces the four prior image-model backgrounds and the prior social preview. It documents construction and reproducibility, not a legal guarantee of exclusive copyright or absence of similarity to every existing work.
 
 ## Source and construction

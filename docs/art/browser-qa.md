@@ -1,6 +1,8 @@
 # Nocturne live-browser checks
 
-> Historical browser snapshot before the later Blender replacements and gameplay fixes. Current asset revision, 20 browser checks, audio/settings observations and test counts are in [current integration verification](remade-verification.md).
+> Current artwork and authoring instructions are in [the art guide](../../art/README.md). All observations, commands and test counts in this file belong to the recorded historical review.
+
+> Historical browser snapshot before the later Blender replacements and gameplay fixes. Current asset revision, 20 browser checks, audio/settings observations and test counts are in [initial-remake verification](remade-verification.md).
 
 > Archive update, 2026-09-14: historical `art/build/` and `art/retired/` contents are now tracked under `art/history/2026-09-14-complete-work/production/` and `retired/`. See the [archive inventory](../../art/history/2026-09-14-complete-work/inventory.json) for exact path mappings. The old paths, commands and observations below describe the original checks.
 

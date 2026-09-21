@@ -1,5 +1,7 @@
 > 교체 전 조사 스냅샷입니다. 현재 작업본의 교체 결과는 [재제작 기록](../../remake-audit.md)을 확인하세요. 아래 해시·파일 상태·화면 관찰은 당시 버전에 해당합니다.
 
+> 탐색 링크는 보관 폴더에서 현재 파일 위치로 연결하도록 갱신했습니다. 아래 줄 번호와 코드 설명은 당시 미커밋 작업본의 관찰이며 현재 링크 대상의 내용을 입증하지 않습니다. 재현 가능한 해당 작업본 커밋은 기록되어 있지 않아 현재 코드에 과거 줄 번호 앵커를 붙이지 않습니다.
+
 # Glintgrove 글꼴·Unicode 기호 점검
 
 검토일: 2026-09-13. 대상: 현재 HTML/CSS/JavaScript, `assets/`, `art/previews/`, 개발용 Art Studio. 이 문서는 글꼴 이용 방식과 확인한 조건의 기록이며, 게임 전체의 권리 보증이나 라이선스 부여가 아니다.
@@ -10,15 +12,15 @@
 
 | 위치 | 실제 지정 | 구분 |
 |---|---|---|
-| [css/style.css:12](../../css/style.css#L12) | `Georgia, 'Iowan Old Style', 'AppleMyungjo', 'Batang', serif` | 제목·챕터·모달 등에 사용하는 설치 글꼴 우선순위 |
-| [css/style.css:13](../../css/style.css#L13) | `'Apple SD Gothic Neo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif` | 본문·버튼 등의 설치 글꼴 및 시스템 별칭 |
-| [src/render/entities.js:262](../../src/render/entities.js#L262) | `bold …px system-ui, sans-serif` | 기존 게이트 대체 렌더의 문자 |
-| [src/render/entities.js:294](../../src/render/entities.js#L294) | `…px Georgia, serif` | 포털 구분용 `I`, `II`를 Canvas에 그리는 설정 |
-| [src/render/entities.js:332](../../src/render/entities.js#L332) | `600 …px system-ui, sans-serif` | 빛 색상 구분 문자 `R`, `G`, `B` 등 |
-| [tools/art-preview.css:1](../../tools/art-preview.css#L1) | `-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', system-ui, sans-serif` | 개발용 갤러리 본문 |
-| [tools/art-preview.css:14](../../tools/art-preview.css#L14), [38](../../tools/art-preview.css#L38) | `Georgia, serif` | 개발용 갤러리 제목 |
-| [tools/art-preview.css:52](../../tools/art-preview.css#L52) | `ui-monospace, SFMono-Regular, Consolas, monospace` | 개발용 에셋 ID 표시. 파일을 읽거나 제공하지 않고 설치된 글꼴만 요청 |
-| [tools/art-preview.js:134](../../tools/art-preview.js#L134) | `11px system-ui` | 실패한 에셋의 대체 상태 문구 |
+| [css/style.css:12](../../../../css/style.css) | `Georgia, 'Iowan Old Style', 'AppleMyungjo', 'Batang', serif` | 제목·챕터·모달 등에 사용하는 설치 글꼴 우선순위 |
+| [css/style.css:13](../../../../css/style.css) | `'Apple SD Gothic Neo', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif` | 본문·버튼 등의 설치 글꼴 및 시스템 별칭 |
+| [src/render/entities.js:262](../../../../src/render/entities.js) | `bold …px system-ui, sans-serif` | 기존 게이트 대체 렌더의 문자 |
+| [src/render/entities.js:294](../../../../src/render/entities.js) | `…px Georgia, serif` | 포털 구분용 `I`, `II`를 Canvas에 그리는 설정 |
+| [src/render/entities.js:332](../../../../src/render/entities.js) | `600 …px system-ui, sans-serif` | 빛 색상 구분 문자 `R`, `G`, `B` 등 |
+| [tools/art-preview.css:1](../../../../tools/art-preview.css) | `-apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', system-ui, sans-serif` | 개발용 갤러리 본문 |
+| [tools/art-preview.css:14](../../../../tools/art-preview.css), [38](../../../../tools/art-preview.css) | `Georgia, serif` | 개발용 갤러리 제목 |
+| [tools/art-preview.css:52](../../../../tools/art-preview.css) | `ui-monospace, SFMono-Regular, Consolas, monospace` | 개발용 에셋 ID 표시. 파일을 읽거나 제공하지 않고 설치된 글꼴만 요청 |
+| [tools/art-preview.js:134](../../../../tools/art-preview.js) | `11px system-ui` | 실패한 에셋의 대체 상태 문구 |
 
 `src`, `css`, `index.html`, `tools/art-preview.*`에서 `@font-face`, `FontFace` 생성, Google Fonts URL, 폰트 데이터 URL, 글꼴 파일 로딩을 발견하지 못했다. Git 추적 파일 및 `rg --files`로 확인한 제품 소스·에셋 경로에서 `.ttf`, `.otf`, `.ttc`, `.woff`, `.woff2`, `.eot`, `.dfont` 파일도 발견하지 못했다. 로컬 프로그램·가상환경 안의 패키지 글꼴까지 없다는 뜻은 아니다.
 
@@ -39,18 +41,18 @@
 
 | 용도 | 문자와 코드포인트 | 코드 근거 |
 |---|---|---|
-| 업적 9종 | `🌱 U+1F331`, `🌄 U+1F304`, `🌫️ U+1F32B U+FE0F`, `✨ U+2728`, `💎 U+1F48E`, `🧠 U+1F9E0`, `📅 U+1F4C5`, `🔥 U+1F525`, `🌟 U+1F31F` | [src/services/achievements.js:6](../../src/services/achievements.js#L6), 12, 18, 24, 30, 36, 42, 48, 54. [src/ui/ui.js:281](../../src/ui/ui.js#L281)에서 텍스트로 삽입 |
-| 문맥 도움말 토스트 | `💡 U+1F4A1` | [src/main.js:132](../../src/main.js#L132) |
-| 일일 퍼즐 HUD | `☀️ U+2600 U+FE0F` | [src/main.js:298](../../src/main.js#L298), [370](../../src/main.js#L370) |
-| 장식·업적 알림 | `✧ U+2727` | [index.html:25](../../index.html#L25), 54, 75, 80, 137 및 [src/main.js:84](../../src/main.js#L84). 이 문자는 직접 만든 SVG가 아니라 Unicode 문자임 |
-| 별점·공유 문구 | `★ U+2605`, `☆ U+2606` | [src/ui/ui.js:140](../../src/ui/ui.js#L140), [index.html:83](../../index.html#L83), [src/ui/strings.js:46](../../src/ui/strings.js#L46), 77, 123, [src/services/achievements.js:56](../../src/services/achievements.js#L56) |
-| 튜토리얼 장치 설명 | `◇ U+25C7`, `◈ U+25C8`, `Ⓐ U+24B6`, `◎ U+25CE` | [src/services/tutorial.js:13](../../src/services/tutorial.js#L13), 16, 19 및 [src/ui/strings.js:62](../../src/ui/strings.js#L62), 68 |
-| 뒤로·다음 | `← U+2190`, `→ U+2192` | [src/ui/strings.js:35](../../src/ui/strings.js#L35), 42, 112, 119; [index.html:59](../../index.html#L59), 86 |
-| 개발 도구 기호 | `↗ U+2197`, `↻ U+21BB`, `● U+25CF`, `× U+00D7`, `→ U+2192` | [tools/art-preview.html:15](../../tools/art-preview.html#L15), 19, 29; [tools/art-preview.css:20](../../tools/art-preview.css#L20); [tools/art-preview.js:64](../../tools/art-preview.js#L64); `tools/check-assets.mjs:27`, `tools/analyze-events.mjs:7` |
+| 업적 9종 | `🌱 U+1F331`, `🌄 U+1F304`, `🌫️ U+1F32B U+FE0F`, `✨ U+2728`, `💎 U+1F48E`, `🧠 U+1F9E0`, `📅 U+1F4C5`, `🔥 U+1F525`, `🌟 U+1F31F` | [src/services/achievements.js:6](../../../../src/services/achievements.js), 12, 18, 24, 30, 36, 42, 48, 54. [src/ui/ui.js:281](../../../../src/ui/ui.js)에서 텍스트로 삽입 |
+| 문맥 도움말 토스트 | `💡 U+1F4A1` | [src/main.js:132](../../../../src/main.js) |
+| 일일 퍼즐 HUD | `☀️ U+2600 U+FE0F` | [src/main.js:298](../../../../src/main.js), [370](../../../../src/main.js) |
+| 장식·업적 알림 | `✧ U+2727` | [index.html:25](../../../../index.html), 54, 75, 80, 137 및 [src/main.js:84](../../../../src/main.js). 이 문자는 직접 만든 SVG가 아니라 Unicode 문자임 |
+| 별점·공유 문구 | `★ U+2605`, `☆ U+2606` | [src/ui/ui.js:140](../../../../src/ui/ui.js), [index.html:83](../../../../index.html), [src/ui/strings.js:46](../../../../src/ui/strings.js), 77, 123, [src/services/achievements.js:56](../../../../src/services/achievements.js) |
+| 튜토리얼 장치 설명 | `◇ U+25C7`, `◈ U+25C8`, `Ⓐ U+24B6`, `◎ U+25CE` | [src/services/tutorial.js:13](../../../../src/services/tutorial.js), 16, 19 및 [src/ui/strings.js:62](../../../../src/ui/strings.js), 68 |
+| 뒤로·다음 | `← U+2190`, `→ U+2192` | [src/ui/strings.js:35](../../../../src/ui/strings.js), 42, 112, 119; [index.html:59](../../../../index.html), 86 |
+| 개발 도구 기호 | `↗ U+2197`, `↻ U+21BB`, `● U+25CF`, `× U+00D7`, `→ U+2192` | [tools/art-preview.html:15](../../../../tools/art-preview.html), 19, 29; [tools/art-preview.css:20](../../../../tools/art-preview.css); [tools/art-preview.js:64](../../../../tools/art-preview.js); `tools/check-assets.mjs:27`, `tools/analyze-events.mjs:7` |
 
 `U+FE0F`는 이모지 표시를 요청하는 선택자이며 자체 그림 파일이 아니다. Unicode는 문자·문자열과 실제 이모지 그림의 표현을 구분한다. Unicode 문서에 실린 컬러 샘플의 권리는 각 제공자에게 있으며, Unicode가 해당 그림의 상업적 재사용 권한을 대신 주는 것은 아니다. **차트의 Apple·Microsoft 그림을 다운로드하는 행위와, 게임 HTML에 이모지 문자를 넣어 사용자의 기기에서 표시하는 현재 방식은 구분해야 한다.** 이는 코드 경로와 표준의 설명을 함께 본 해석이다. [Unicode UTS #51 §1.4, §4.1](https://www.unicode.org/reports/tr51/), [Unicode Emoji Images and Rights](https://www.unicode.org/emoji/images.html)
 
-빛·되돌리기·재시작·지도 버튼과 나뭇잎 문장, 잠금 표시, 튜토리얼 포인터는 현재 [index.html](../../index.html) 및 [src/ui/ui.js](../../src/ui/ui.js)에 있는 SVG 경로다. SF Symbols, 아이콘 폰트, 외부 이모지 PNG/SVG 세트 로더는 발견되지 않았다. 이 코드 구성 사실이 모든 기존 SVG의 창작 경위를 독립적으로 입증하는 것은 아니다.
+빛·되돌리기·재시작·지도 버튼과 나뭇잎 문장, 잠금 표시, 튜토리얼 포인터는 현재 [index.html](../../../../index.html) 및 [src/ui/ui.js](../../../../src/ui/ui.js)에 있는 SVG 경로다. SF Symbols, 아이콘 폰트, 외부 이모지 PNG/SVG 세트 로더는 발견되지 않았다. 이 코드 구성 사실이 모든 기존 SVG의 창작 경위를 독립적으로 입증하는 것은 아니다.
 
 ## 3. 공식 조건을 현재 구성에 적용하면
 

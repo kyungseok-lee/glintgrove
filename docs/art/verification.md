@@ -1,6 +1,8 @@
 # Art pipeline independent verification
 
-> Historical initial-pipeline snapshot. Later Blender background replacements, folder paths, asset revision and test counts are documented in [current integration verification](remade-verification.md) and [replacement review](../legal/remake-independent-review.md). References below describe the files at the time of this earlier review.
+> Current artwork and authoring instructions are in [the art guide](../../art/README.md). All observations, commands and test counts in this file belong to the recorded historical review.
+
+> Historical initial-pipeline snapshot. Later Blender background replacements, folder paths, asset revision and test counts are documented in [initial-remake verification](remade-verification.md) and [replacement review](../legal/remake-independent-review.md). References below describe the files at the time of this earlier review.
 
 > Archive update, 2026-09-14: historical `art/build/` and `art/retired/` contents are now tracked under `art/history/2026-09-14-complete-work/production/` and `retired/`. See the [archive inventory](../../art/history/2026-09-14-complete-work/inventory.json) for exact path mappings. The executed commands, paths and measurements below are preserved as historical evidence.
 
